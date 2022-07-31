@@ -1,8 +1,9 @@
 body {
-  
+    color: #faf1cf;
     margin: 0;
-    background: #eee;
+    background-color: #5daa68;
     font-family: Besley, serif;
+    
   }
 
 
@@ -10,14 +11,14 @@ body {
 .header{
     display: flex;
     flex-direction: row;
-    background: #36688d;
+    background: #3f6844;
     border-bottom: 1px solid #ddd;
     box-shadow: 0 0 8px rgba(0,0,0,.1);
     justify-content: space-around;
 }
 .logo{
-    color: rgb(0, 0, 0);
-    font-size: 32px;
+    color: #faf1cf;
+    font-size: 62px;
     font-weight: 900;
     font-style: italic;
     padding-right: 16px;
@@ -38,7 +39,7 @@ below is content one! */
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background: #36688d;
+    background: #3f6844;
     padding: 50px;
     
     /*Not sure if this is a good idea but we'll see*/
@@ -51,9 +52,15 @@ below is content one! */
   /*this is to add more character to it*/
   button.sign-up {
     display: flex;
+
+    background: #5DAA68;
+    border: 1px solid #5DAA68;
+    color: #faf1cf;
+    /*
     background: royalblue;
     border: 1px solid royalblue;
-    color: white;
+    */
+    
   }
 
 .content-a-l{
@@ -89,6 +96,7 @@ font-size: 40px;
 .content-b{
 display: flex;
 flex-direction: column;
+background-color:#5DAA68;
 }
 
 .content-b-top{
@@ -125,13 +133,37 @@ justify-content: center;
 
 font-size: 32px;
 }
+
+.content-c{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: #3f6844;
+}
+
+.c-contain{
+    
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+}
+.c-quote{
+    width: 900px;
+}
+.c-author{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
 /* apply to all*/
 img{
     width: 350px;
     height: 350px;
 }
 img {
-    border: 5px solid black;
+    border: 5px solid #faf1cf;
   }
 button {
     padding: 8px 16px;
@@ -142,7 +174,7 @@ button {
 a {
     /*being used on link-one*/
     font-size: 20px;
-    color: black;
+    color: #faf1cf;
     text-decoration: none;
   }
 
