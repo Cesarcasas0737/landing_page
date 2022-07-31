@@ -41,7 +41,6 @@ below is content one! */
     align-items: center;
     background: #3f6844;
     padding: 50px;
-    
     /*Not sure if this is a good idea but we'll see*/
     margin-top: -1px;
     
@@ -63,12 +62,18 @@ below is content one! */
     
   }
 
+
 .content-a-l{
-
     display: flex;
+    align-items:center;
+    justify-content: center;
     flex-direction: column;
+    width: 810px;
+    height: 360px;
 }
+.content-a-l-child{
 
+}
 .content-a-l-top{
 font-size: 40px;
 }
@@ -77,7 +82,7 @@ font-size: 40px;
     display: flex;
     flex-direction: column;
     font-size: 22px;
-    height: 200px;
+    height: 150px;
     width: 400px;
     margin-bottom: 0px;
     }
@@ -85,8 +90,8 @@ font-size: 40px;
 .content-a-l-bottom{
 }
 
-.content-a-r{
-    /*Image here*/
+.content-a-r img{
+    width: 800px;
 }
 
 /**/
@@ -97,6 +102,7 @@ font-size: 40px;
 display: flex;
 flex-direction: column;
 background-color:#5DAA68;
+padding: 100px;
 }
 
 .content-b-top{
@@ -112,10 +118,10 @@ font-size: 50px;
 
 /*hold images with text*/
 .content-b-content{
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
 }
 
 /*image + text*/
@@ -139,7 +145,7 @@ font-size: 32px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    padding: 100px;
     background-color: #3f6844;
 }
 
@@ -159,20 +165,29 @@ font-size: 32px;
 }
 .content-d{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 100px;
 }
 .d-contain{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+    background: #3f6844;
+    padding: 50px;
+    border-radius: 8px;
 }
 .d-l-contain{
     display: flex;
     flex-direction: column;
+    margin-right: 10px;
 }
-.d-title{
+.d-r-contain{
+    
+}
+.d-tilte{
     font-size: 40px; 
 }
 /* apply to all*/
@@ -183,7 +198,7 @@ img{
 }
 
 button {
-    padding: 8px 16px;
+    padding: 8px 32px;
     border-radius: 8px;
       
     }
