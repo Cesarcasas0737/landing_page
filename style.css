@@ -172,6 +172,9 @@ font-size: 32px;
     display: flex;
     flex-direction: column;
 }
+.d-title{
+    font-size: 40px; 
+}
 /* apply to all*/
 img{
     width: 350px;
